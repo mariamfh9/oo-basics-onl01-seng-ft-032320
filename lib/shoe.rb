@@ -9,7 +9,6 @@ class Shoe
   
   def cobble
     shoe.condition = "new"
-  
+  end 
 
 end 
-Shoe.new("Adidas")
