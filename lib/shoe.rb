@@ -8,7 +8,7 @@ class Shoe
   end
   
   def cobble
-    Shoe.condition = "new"
+    this.condition = "new"
     puts "The shoe has been repaired"
   end 
 
